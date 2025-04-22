@@ -1,0 +1,121 @@
+
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.header {
+  background: #2C3E50;
+  color: #fff;
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+.nav .menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.nav .menu li a {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+.nav .menu li a:hover {
+  color: #D8C9F1;
+}
+.cta-btn {
+  background-color: #27AE60;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+.cta-btn.large {
+  font-size: 1.2em;
+  padding: 15px 30px;
+}
+.hero {
+  background: #F4F6F7;
+  padding: 80px 0;
+  text-align: center;
+}
+.hero h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+.sobre, .especialidades, .resultados, .depoimentos, .conteudos, .contato {
+  padding: 60px 0;
+}
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.8em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  width: 300px;
+  text-align: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: 'Lato', sans-serif;
+}
+button {
+  background: #27AE60;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.footer {
+  background: #2C3E50;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
